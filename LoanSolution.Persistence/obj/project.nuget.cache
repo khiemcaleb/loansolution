@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "dl07G9qW4YBc+aMqdkDFjjaNVIEvdrUBw+2S62C5x6zdDmcC5nxlQG8V3jIip1Q9W4AN8yAHfZYoae6oE9Zd3g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ktngu\\source\\repos\\LoanSolution\\LoanSolution.Persistence\\LoanSolution.Persistence.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ktngu\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0\\microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\ktngu\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\ktngu\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,15 @@
+C:\Users\ktngu\source\repos\LoanSolution\LoanSolution.Persistence\obj\Debug\net6.0\LoanSolution.Persistence.csproj.AssemblyReference.cache
+C:\Users\ktngu\source\repos\LoanSolution\LoanSolution.Persistence\obj\Debug\net6.0\LoanSolution.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ktngu\source\repos\LoanSolution\LoanSolution.Persistence\obj\Debug\net6.0\LoanSolution.Persistence.AssemblyInfoInputs.cache
+C:\Users\ktngu\source\repos\LoanSolution\LoanSolution.Persistence\obj\Debug\net6.0\LoanSolution.Persistence.AssemblyInfo.cs
+C:\Users\ktngu\source\repos\LoanSolution\LoanSolution.Persistence\obj\Debug\net6.0\LoanSolution.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\ktngu\source\repos\LoanSolution\LoanSolution.Persistence\bin\Debug\net6.0\LoanSolution.Persistence.deps.json
+C:\Users\ktngu\source\repos\LoanSolution\LoanSolution.Persistence\bin\Debug\net6.0\LoanSolution.Persistence.dll
+C:\Users\ktngu\source\repos\LoanSolution\LoanSolution.Persistence\bin\Debug\net6.0\LoanSolution.Persistence.pdb
+C:\Users\ktngu\source\repos\LoanSolution\LoanSolution.Persistence\bin\Debug\net6.0\LoanSolution.Core.dll
+C:\Users\ktngu\source\repos\LoanSolution\LoanSolution.Persistence\bin\Debug\net6.0\LoanSolution.Core.pdb
+C:\Users\ktngu\source\repos\LoanSolution\LoanSolution.Persistence\obj\Debug\net6.0\LoanSolution.Persistence.csproj.CopyComplete
+C:\Users\ktngu\source\repos\LoanSolution\LoanSolution.Persistence\obj\Debug\net6.0\LoanSolution.Persistence.dll
+C:\Users\ktngu\source\repos\LoanSolution\LoanSolution.Persistence\obj\Debug\net6.0\refint\LoanSolution.Persistence.dll
+C:\Users\ktngu\source\repos\LoanSolution\LoanSolution.Persistence\obj\Debug\net6.0\LoanSolution.Persistence.pdb
+C:\Users\ktngu\source\repos\LoanSolution\LoanSolution.Persistence\obj\Debug\net6.0\ref\LoanSolution.Persistence.dll

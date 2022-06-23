@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "jH2UjoKLb8yRg1LSn5cTuBVkyDNBUa5ZUqPD5sJN1nk=",
+  "Source": "LoanSolution.Api",
+  "BasePath": "_content/LoanSolution.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

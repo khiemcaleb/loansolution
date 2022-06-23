@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "LoanSolution.Core/1.0.0": {
+        "runtime": {
+          "LoanSolution.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "LoanSolution.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

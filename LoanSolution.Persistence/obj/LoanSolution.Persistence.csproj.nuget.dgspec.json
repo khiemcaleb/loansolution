@@ -1,0 +1,126 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\ktngu\\source\\repos\\LoanSolution\\LoanSolution.Persistence\\LoanSolution.Persistence.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\ktngu\\source\\repos\\LoanSolution\\LoanSolution.Core\\LoanSolution.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ktngu\\source\\repos\\LoanSolution\\LoanSolution.Core\\LoanSolution.Core.csproj",
+        "projectName": "LoanSolution.Core",
+        "projectPath": "C:\\Users\\ktngu\\source\\repos\\LoanSolution\\LoanSolution.Core\\LoanSolution.Core.csproj",
+        "packagesPath": "C:\\Users\\ktngu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ktngu\\source\\repos\\LoanSolution\\LoanSolution.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ktngu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ktngu\\source\\repos\\LoanSolution\\LoanSolution.Persistence\\LoanSolution.Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ktngu\\source\\repos\\LoanSolution\\LoanSolution.Persistence\\LoanSolution.Persistence.csproj",
+        "projectName": "LoanSolution.Persistence",
+        "projectPath": "C:\\Users\\ktngu\\source\\repos\\LoanSolution\\LoanSolution.Persistence\\LoanSolution.Persistence.csproj",
+        "packagesPath": "C:\\Users\\ktngu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ktngu\\source\\repos\\LoanSolution\\LoanSolution.Persistence\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ktngu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\ktngu\\source\\repos\\LoanSolution\\LoanSolution.Core\\LoanSolution.Core.csproj": {
+                "projectPath": "C:\\Users\\ktngu\\source\\repos\\LoanSolution\\LoanSolution.Core\\LoanSolution.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
