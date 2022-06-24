@@ -15,7 +15,15 @@ namespace LoanSolution.Persistence.Validators
         public DefaultLoanValidator(ILoanSettingsRepository loanRepos)
         {
             _loanRepos = loanRepos;
-        }    
+        }
+
+        public async Task<bool> ValidateCountryCodeAsync(string countryCode)
+        {
+            var loanSetting = await _loanRepos.GetActiveLoanSettingsAsync();
+
+            return loanSetting.CountryCode == countryCode;
+        }
+
         public async Task<bool> ValidateLoanAmountAsync(decimal amount)
         {
             var loanSetting = await _loanRepos.GetActiveLoanSettingsAsync();

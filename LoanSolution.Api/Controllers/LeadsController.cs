@@ -81,6 +81,14 @@ namespace LoanSolution.Api.Controllers
                 citizenshipRule.Unknown($"{dto.CitizenshipStatus} is not provided or is not of the known values");
             generalResult.AddRuleResult(citizenshipRule);
 
+            var countryCodeRule = new LeadRule("countryCode");
+            if (await _loanValidator.ValidateCountryCodeAsync(dto.CountryCode))
+                countryCodeRule.Pass();
+            else
+                countryCodeRule.Unknown($"{dto.CountryCode} is not available");
+            generalResult.AddRuleResult(countryCodeRule);
+
+
                 return Ok(generalResult);
         }
     }

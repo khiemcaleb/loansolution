@@ -4,5 +4,6 @@
     {
         Task<bool> ValidateLoanAmountAsync(decimal amount);
         Task<bool> ValidateTimeTradingAsync(int timeTrading);
+        Task<bool> ValidateCountryCodeAsync(string countryCode);
     }
 }
