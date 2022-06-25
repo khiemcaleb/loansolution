@@ -14,14 +14,16 @@ namespace LoanSolution.Api.Controllers
         private readonly IPhoneNumberValidator _phoneNumberValidator;
         private readonly ILoanValidator _loanValidator;
         private readonly ICitizenshipValidator _citizenshipValidator;
+        private readonly IIndustryValidator _industryValidator;
 
-        public LeadsController(IMandatoryValidator mandatoryValidator, IBusinessNumberValidator businessNumberValidator, IPhoneNumberValidator phoneNumberValidator, ILoanValidator loanValidator, ICitizenshipValidator citizenshipValidator)
+        public LeadsController(IMandatoryValidator mandatoryValidator, IBusinessNumberValidator businessNumberValidator, IPhoneNumberValidator phoneNumberValidator, ILoanValidator loanValidator, ICitizenshipValidator citizenshipValidator, IIndustryValidator industryValidator)
         {
             _mandatoryValidator = mandatoryValidator;
             _businessNumberValidator = businessNumberValidator;
             _phoneNumberValidator = phoneNumberValidator;
             _loanValidator = loanValidator;
             _citizenshipValidator = citizenshipValidator;
+            _industryValidator = industryValidator;
         }
 
         [HttpPost]
@@ -88,8 +90,20 @@ namespace LoanSolution.Api.Controllers
                 countryCodeRule.Unknown($"{dto.CountryCode} is not available");
             generalResult.AddRuleResult(countryCodeRule);
 
+            var industryRule = new LeadRule("industry");
+            var industryResult = await _industryValidator.ValidateIndustryAsync(dto.Industry);
+            if (industryResult.IsAllowed)
+                industryRule.Pass();
+            else
+            {
+                if (industryResult.IsBanned)
+                    industryRule.Fail($"{nameof(dto.Industry)} is not allowed.");
+                else
+                    industryRule.Unknown($"{nameof(dto.Industry)} is not known");
+            }
+            generalResult.AddRuleResult(industryRule);
 
-                return Ok(generalResult);
+            return Ok(generalResult);
         }
     }
 }

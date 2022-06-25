@@ -25,6 +25,8 @@ builder.Services.AddTransient<IBusinessNumberValidator, ExternalBusinessNumberVa
 builder.Services.AddTransient<ILoanValidator, DefaultLoanValidator>();
 builder.Services.AddTransient<ICitizenshipRepository, HardcodedCitizenshipRepository>();
 builder.Services.AddTransient<ICitizenshipValidator, DefaultCitizenshipValidator>();
+builder.Services.AddTransient<IIndustryRepository, HardcodedIndustryRepository>();
+builder.Services.AddTransient<IIndustryValidator, DefaultIndustryValidator>();
 
 var app = builder.Build();
 
