@@ -27,6 +27,7 @@ builder.Services.AddTransient<ICitizenshipRepository, HardcodedCitizenshipReposi
 builder.Services.AddTransient<ICitizenshipValidator, DefaultCitizenshipValidator>();
 builder.Services.AddTransient<IIndustryRepository, HardcodedIndustryRepository>();
 builder.Services.AddTransient<IIndustryValidator, DefaultIndustryValidator>();
+builder.Services.AddMemoryCache();
 
 var app = builder.Build();
 
